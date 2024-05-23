@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SMGX- E-commerce Portal</title>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+    
+          <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+            
+            <i class=""></i>
+            <img src="/assets/img/gallery/smgx.jpeg"/>
+            <h1>SMGX</h1>
+          </a>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="dropdown"><a href="#"><span>Category</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="mens.html">Mens Wear</a></li>
+                  <li><a href="womens.html">Womens Wear</a></li>
+                  <li><a href="kids.html">Kids</a></li>
+                </ul>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Cart</a></li>
+            </ul>
+          </nav>
+    
+          <div class="header-social-links">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+          </div>
+        
+        </div>
+      </header>
+      <main id="main" data-aos="fade" data-aos-delay="1500">
+
+        
+        <div class="page-header d-flex align-items-center">
+          <div class="container position-relative">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2>Contact</h2>
+                <p>Please Contact, if you have queries related to your recent purchases.</p>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+
+       
+        <section id="contact" class="contact">
+          <div class="container">
+    
+            <div class="row gy-4 justify-content-center">
+    
+              <div class="col-lg-3">
+                <div class="info-item d-flex">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h4>Location:</h4>
+                    <p>Test Location</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="info-item d-flex">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h4>Email:</h4>
+                    <p>test@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3">
+                <div class="info-item d-flex">
+                  <i class="bi bi-phone flex-shrink-0"></i>
+                  <div>
+                    <h4>Call:</h4>
+                    <p>+61 416 418 660</p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
+    
+      </main>
+      <br><br>
+      <div id="googleMap" style="width:100%;height:300px;"></div>
+
+      
+    
+ 
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SMGX</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by SMGX</a>
+      </div>
+    </div>
+  </footer>
+  
+  
+ 
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+ 
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(29.02194158718588, 79.27408755025735),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg3kJxhWASiS291NJiBYPI1lPHjJtcDf0&callback=myMap"></script>
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script> -->
+
+</body>
+
+</html>
