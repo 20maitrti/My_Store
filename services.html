@@ -12,42 +12,92 @@
 </head>
 
 <body>
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid d-flex align-items-center justify-content-between">
-    
-          <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-            
-            <i class=""></i>
-            <img src="/assets/img/gallery/smgx.jpeg"/>
-            <h1>SMGX</h1>
-          </a>
-    
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li class="dropdown"><a href="#"><span>Category</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="mens.html">Mens Wear</a></li>
-                  <li><a href="womens.html">Womens Wear</a></li>
-                  <li><a href="kids.html">Kids</a></li>
-                </ul>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="#">Cart</a></li>
-            </ul>
-          </nav>
-    
-          <div class="header-social-links">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-          </div>
-        
-        </div>
-      </header>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        
+        <i class=""></i>
+        <img src="assets/img/gallery/smgx.jpeg"/>
+        <h1>SMGX</h1>
+      </a>
+
+      <nav id="navbar" >
+        <ul class="sidebar" >
+          <li class="close-button">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+                fill="#FFFFFF"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                /></svg
+            ></a>
+          </li>
+          <li ><a href="index.html" >Home</a></li>
+          <li ><a href="about.html">About</a></li>
+         
+          <!-- <li class="dropdown"><a href="#"><span>Category</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="mens.html">Mens Wear</a></li>
+              <li><a href="womens.html">Womens Wear</a></li>
+              <li><a href="kids.html">Kids</a></li>
+            </ul>
+          </li>  -->
+          <div class="test">
+          <button  class="dropbtn">Category <i class="bi bi-chevron-up dropdown-indicator i-up" id="i-up"></i> <i class="bi bi-chevron-down dropdown-indicator i-down" id="i-down"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="mens.html">Mens Wear</a>
+            <a href="womens.html">Womens Wear</a>
+            <a href="kids.html">Kids</a>
+          </div>
+        </div>
+          <li ><a href="services.html" class="active">Services</a></li>
+          <li ><a href="contact.html">Contact</a></li>
+          <li ><a href="#">Cart</a></li>
+        </ul>
+        <ul class="navbar" >
+          <li class="topnav"><a href="index.html" >Home</a></li>
+          <li class="topnav"><a href="about.html">About</a></li>
+          <li class="dropdown topnav"><a href="#"><span>Category</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul class="category">
+              <li><a href="mens.html">Mens Wear</a></li>
+              <li><a href="womens.html">Womens Wear</a></li>
+              <li><a href="kids.html">Kids</a></li>
+            </ul>
+          <li class="topnav"><a href="services.html " class="active">Services</a></li>
+          <li class="topnav"><a href="contact.html">Contact</a></li>
+          <li class="topnav"><a href="#">Cart</a></li>
+          <li class="menu-button">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                viewBox="0 96 960 960"
+                width="30"
+                fill="#FFFFFF"
+           >
+                <path
+                  d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    
+    </div>
+  </header>
       <main id="main" data-aos="fade" data-aos-delay="1500">
 
        
